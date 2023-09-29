@@ -38,7 +38,6 @@ public class CannonShot : MonoBehaviour
     private void OnEnable()
     {
         ShootingButton.shootingEvent += ShootBall;
-
     }
 
     private void OnDisable()
